@@ -7,7 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class AmazonEurekaApplication {
 
 	public static void main(String[] args) {
+
+		System.out.println("AmazonEurekaApplication started");
 		SpringApplication.run(AmazonEurekaApplication.class, args);
+		System.out.println("AmazonEurekaApplication ended");
 	}
 
 }
